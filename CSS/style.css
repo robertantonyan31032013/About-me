@@ -271,12 +271,12 @@
             margin-bottom: 12px;
         }
     }
-    @media (max-width : 320px) {
+    @media (max-width : 400px) {
         .nav  {
             display: none;
         }
         .container {
-            max-width: 320px;
+            max-width: 400px;
         }
         body {
             overflow-x: none;

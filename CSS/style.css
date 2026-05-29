@@ -47,6 +47,9 @@
         .logo {
             display: flex;
         }
+        .logo img {
+            object-fit: cover;
+        }
         .header_container {
             display: flex;
             justify-content: space-between;
@@ -265,6 +268,51 @@
 
         .works_item {
             width: 65%;
+            margin-bottom: 12px;
+        }
+    }
+    @media (max-width : 320px) {
+        .nav  {
+            display: none;
+        }
+        .container {
+            max-width: 320px;
+        }
+        body {
+            overflow-x: none;
+        }
+
+        .works_container {
+            margin-bottom: 8px;
+        }
+
+        .container_me {
+            padding-top: 20px;
+            flex-direction: column;
+        }
+
+        .me_img {
+            width: 98%;
+        }
+
+        .me_content {
+            width: 98%;
+            padding-top: 20px;
+        }
+        .courses_list {
+            flex-direction: column;
+        }
+        .courses_item {
+            width: 98%;
+            margin-bottom: 12px;
+        }
+        .text_long {
+            margin-bottom: 12px;
+        }
+        .footer_menu {
+            display: none;
+        }
+        .container_courses {
             margin-bottom: 12px;
         }
     }
